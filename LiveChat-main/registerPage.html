@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="background"></div>
+    <div class="centerer">
+        <div class="mPanel">
+            <form class="regForm" action="registration.php" method="post">
+                <label for="userLogin">Login: </label><br>
+                <input type="text" id="userLogin" name="userName" value=""><br><br>
+                <label for="password">Password: </label><br>
+                <input type="password" id="userPassword" name="userPassword" value=""><br><br>
+                <label for="password">Confirm password: </label><br>
+                <input type="password" id="userPassword" name="userPasswords" value=""><br><br>
+                <button type="submit" id="registerBtn" name="register" onclick="location.href='./registerPage.html'">Register</button>
+                <button type="button" id="loginBtn" name="login" onclick="location.href='./loginPage.html'">Login</button><br>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
